@@ -21,9 +21,12 @@ function Routes() {
         <Route path="/certifications" component={Certifications} />
         <Route path="/Clients" component={Clients} />
         <Route path="/home" component={Home} />
-        <Route path="/" component={Home} />
+        <Route path="/" render={() => <h1>404</h1>} />
       </Switch>
-      <Footer />
+      <Switch>
+        <Route path="/home" render={() => <></>} />
+        <Route path="/" component={Footer} />
+      </Switch>
     </Router>
   );
 }

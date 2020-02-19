@@ -1,5 +1,36 @@
 div.foot {
   background-color: var(--purple);
-  height: 400px;
   color: white;
+  min-height: 200px;
+  position: relative;
+  padding: 24px var(--side-margin);
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: -24px;
+}
+
+.foot ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 50%;
+  background-color: var(--purple);
+}
+
+.foot ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  text-transform: none;
+  margin-right: 8px;
+  font-size: 0.7rem;
+}
+
+.foot ul li img {
+  width: 2rem;
+  margin-right: -4px;
+  margin-top: 0;
 }
