@@ -65,49 +65,90 @@ function Services() {
       <Section id="mgmt">
         <h3>Change Management & Training</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          convallis, purus a aliquet accumsan, neque sapien lobortis magna, vel
-          rutrum nunc sem sit amet nulla. Nam laoreet, enim nec bibendum tempor,
-          ante ligula vehicula nulla, at malesuada arcu tortor ultricies nisi.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Praesent dignissim lectus et lacus lobortis vestibulum eu et
-          ante. Fusce rutrum pellentesque neque, lobortis rhoncus mauris
-          ullamcorper sit amet. Proin sit amet libero tempus ipsum commodo
-          semper. Praesent fringilla ipsum sed neque condimentum eget euismod
-          tellus luctus. Morbi quis leo neque, ut semper purus. Sed iaculis,
-          lorem sed tempor faucibus, metus nulla egestas velit, ut vehicula
-          justo quam in odio. Morbi id neque sem. Suspendisse eros purus,
-          pulvinar pharetra congue in, venenatis ac justo. Sed varius turpis eu
-          eros gravida dignissim. Aenean ac molestie velit. Curabitur dolor
-          nisi, molestie eu bibendum in, facilisis vel sapien. Praesent eu
-          tincidunt ante. Nam viverra dolor sit amet urna blandit vitae interdum
-          ipsum mollis. Donec at volutpat ligula. Suspendisse at eros vitae
-          neque bibendum vulputate sit amet a massa. Ut malesuada pretium
-          vehicula. Fusce in semper sapien. Sed mattis lacinia sem nec commodo.
-          Vivamus facilisis dolor pulvinar nunc blandit porttitor. Etiam euismod
-          sodales varius. Morbi nunc velit, sollicitudin sit amet elementum
-          quis, fringilla et lorem. Praesent eget condimentum lacus. Fusce
-          sollicitudin gravida justo, eu pretium enim semper malesuada. Aenean
-          erat ante, placerat non viverra a, cursus id purus. Proin libero quam,
-          congue in consequat vel, mollis sit amet ipsum. Donec luctus lacinia
-          enim nec congue. Praesent nibh justo, mollis ut imperdiet nec,
-          consectetur a dui. Curabitur ornare, velit sed hendrerit lacinia,
-          sapien mauris aliquam tortor, sit amet faucibus purus justo nec
-          tellus. Suspendisse augue justo, fermentum vitae tristique consequat,
-          mollis sed tortor. In turpis nisl, fringilla vel varius id, vestibulum
-          eu leo. Suspendisse dapibus arcu eu ipsum facilisis tincidunt.
-          Vestibulum sollicitudin consectetur justo in sodales. Vestibulum quam
-          metus, dictum ut tempor nec, pulvinar a erat. Ut malesuada ante sed
-          nunc volutpat pellentesque. Curabitur sed placerat ipsum. Nunc
-          bibendum sodales enim, vel commodo ante tempus vitae. Etiam ac sapien
-          sit amet dolor blandit elementum. Pellentesque id mi odio. Aliquam
-          erat volutpat. Vestibulum rutrum facilisis orci, eu sodales nulla
-          egestas quis. In leo massa, faucibus sit amet tempus eu, condimentum
-          vel risus. Sed imperdiet, erat vel imperdiet tincidunt, metus neque
-          vulputate mauris, et molestie est ipsum nec eros. Aliquam tempus
-          cursus ante, in tristique lorem aliquet sed.
+          Are you deploying new technology, changing business processes, or
+          implementing new or complex strategic objectives? If so, our services
+          can help you implement the change and deliver sustainable value.
         </p>
+        <p>
+          The execution of every strategic project requires people to change in
+          some way. Your organization won’t gain competitive advantage from a
+          good idea or solution, but from successfully and effectively
+          implementing that idea. This shift requires that people understand,
+          adopt and adapt to the changes. All involved must understand how their
+          behaviors and actions align to the goals.
+        </p>
+        <p>
+          Getting people to make behavioral changes is often more difficult than
+          designing and developing the business solution itself. Resistance to
+          change results in increased turnover, lower productivity, and wasted
+          resources.
+        </p>
+        <p>
+          It is just as important to have a strategy for developing acceptance
+          and skills as it is to have a plan for implementing the solution.
+          Training is absolutely critical Employees that are prepared for change
+          will remain productive and more fully contribute to the overall goals
+          of the project and organization.
+        </p>
+        <h4>Change Management and Training Benefits</h4>
+        <ul className="bullet">
+          <li>
+            Increases likelihood and speed of project success by increasing
+            adoption and long term sustainability
+          </li>
+          <li>
+            Increases the speed of change while minimizing business disruption
+          </li>
+          <li>
+            Builds the case for change and allows people to understand, accept
+            and support the change
+          </li>
+          <li>Ensures clear direction from sponsor</li>
+          <li>Gains commitment and promotes buy-in from stakeholders</li>
+          <li>
+            Outlines stakeholder messaging and educate specifics about impacts
+            and what’s in it for me (WIIFM)
+          </li>
+          <li>
+            Enables desired outcomes and behaviors because people understand
+            exactly what to do and how to recognize when they do it
+          </li>
+          <li>
+            Helps manage expectations and reinforce the behaviors that will
+            produce the right business results
+          </li>
+          <li>Builds support for the initiative and reduces risk</li>
+          <li>Develops sufficient capability to perform responsibilities</li>
+          <li>Enhances quality of concept and execution</li>
+        </ul>
+
+        <h4>Change Management Services</h4>
+        <ul className="bullet">
+          <li>Change Management Strategy and Planning</li>
+          <li>Change Impact and Business Readiness Assessments</li>
+          <li>Business Process Design</li>
+          <li>Sponsor/Stakeholder Engagement</li>
+          <li>Communications</li>
+          <li>Change Methodology and Toolkits</li>
+          <li>Program Management</li>
+          <li>AGILE Change Management</li>
+        </ul>
+
+        <h4>Training Services</h4>
+        <ul className="bullet">
+          <li>Training Analysis and Strategy</li>
+          <li>Curriculum Development</li>
+          <li>Content Design and Development</li>
+          <li>Process Design and Documentation</li>
+          <li>eLearning Development</li>
+          <li>Mobile/Responsive Training Development</li>
+          <li>Instructor Led Training/Workshop Facilitation</li>
+          <li>Virtual classrooms</li>
+          <li>Micro Learning</li>
+          <li>Business Simulations (Adobe Captivate)</li>
+          <li>Voiceover</li>
+          <li>Sales Enablement</li>
+        </ul>
       </Section>
     </Layout>
   );

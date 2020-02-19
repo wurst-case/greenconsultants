@@ -9,7 +9,6 @@ function Certifications() {
     <Layout>
       <Section id="">
         <h1>Certifications</h1>
-        <h3>Title</h3>
         <p>
           Green Consultants conducts all of our business activities through the
           lens of sustainability stewardship. We strive to inspire other
