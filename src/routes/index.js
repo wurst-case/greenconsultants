@@ -8,6 +8,7 @@ import Services from "../containers/Services/Services";
 import Certifications from "../containers/Certifications/Certifications";
 import Clients from "../containers/Clients/Clients";
 import Footer from "../components/Footer/Footer";
+import Lost from "../containers/Lost/Lost";
 
 export const history = createBrowserHistory();
 
@@ -21,7 +22,7 @@ function Routes() {
         <Route path="/certifications" component={Certifications} />
         <Route path="/Clients" component={Clients} />
         <Route path="/home" component={Home} />
-        <Route path="/" render={() => <h1>404</h1>} />
+        <Route path="/" component={Lost} />
       </Switch>
       <Switch>
         <Route path="/home" render={() => <></>} />
