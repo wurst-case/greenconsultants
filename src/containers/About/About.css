@@ -1,26 +1,16 @@
-.About {
-  text-align: left;
+ul.bullet {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: Calc(var(--nav-height) + 24px) var(--side-margin) 24px
-    var(--side-margin);
-
-  width: 40%;
+  margin: 0;
+  text-transform: none;
+  font-size: 1rem;
+  list-style: inherit;
 }
 
-.section {
-  position: relative;
+a.inline-link {
+  font-size: 1rem;
 }
 
-.anchor {
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  z-index: -1;
-  top: Calc(var(--nav-height) * -1);
-  left: 0;
-  visibility: hidden;
+strong {
+  font-weight: 600;
 }

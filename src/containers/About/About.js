@@ -9,50 +9,39 @@ function About() {
       <Section id="founder">
         <h1> About Us</h1>
         <h3>Our Founder</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          convallis, purus a aliquet accumsan, neque sapien lobortis magna, vel
-          rutrum nunc sem sit amet nulla. Nam laoreet, enim nec bibendum tempor,
-          ante ligula vehicula nulla, at malesuada arcu tortor ultricies nisi.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Praesent dignissim lectus et lacus lobortis vestibulum eu et
-          ante. Fusce rutrum pellentesque neque, lobortis rhoncus mauris
-          ullamcorper sit amet. Proin sit amet libero tempus ipsum commodo
-          semper. Praesent fringilla ipsum sed neque condimentum eget euismod
-          tellus luctus. Morbi quis leo neque, ut semper purus. Sed iaculis,
-          lorem sed tempor faucibus, metus nulla egestas velit, ut vehicula
-          justo quam in odio. Morbi id neque sem. Suspendisse eros purus,
-          pulvinar pharetra congue in, venenatis ac justo. Sed varius turpis eu
-          eros gravida dignissim. Aenean ac molestie velit. Curabitur dolor
-          nisi, molestie eu bibendum in, facilisis vel sapien. Praesent eu
-          tincidunt ante. Nam viverra dolor sit amet urna blandit vitae interdum
-          ipsum mollis. Donec at volutpat ligula. Suspendisse at eros vitae
-          neque bibendum vulputate sit amet a massa. Ut malesuada pretium
-          vehicula. Fusce in semper sapien. Sed mattis lacinia sem nec commodo.
-          Vivamus facilisis dolor pulvinar nunc blandit porttitor. Etiam euismod
-          sodales varius. Morbi nunc velit, sollicitudin sit amet elementum
-          quis, fringilla et lorem. Praesent eget condimentum lacus. Fusce
-          sollicitudin gravida justo, eu pretium enim semper malesuada. Aenean
-          erat ante, placerat non viverra a, cursus id purus. Proin libero quam,
-          congue in consequat vel, mollis sit amet ipsum. Donec luctus lacinia
-          enim nec congue. Praesent nibh justo, mollis ut imperdiet nec,
-          consectetur a dui. Curabitur ornare, velit sed hendrerit lacinia,
-          sapien mauris aliquam tortor, sit amet faucibus purus justo nec
-          tellus. Suspendisse augue justo, fermentum vitae tristique consequat,
-          mollis sed tortor. In turpis nisl, fringilla vel varius id, vestibulum
-          eu leo. Suspendisse dapibus arcu eu ipsum facilisis tincidunt.
-          Vestibulum sollicitudin consectetur justo in sodales. Vestibulum quam
-          metus, dictum ut tempor nec, pulvinar a erat. Ut malesuada ante sed
-          nunc volutpat pellentesque. Curabitur sed placerat ipsum. Nunc
-          bibendum sodales enim, vel commodo ante tempus vitae. Etiam ac sapien
-          sit amet dolor blandit elementum. Pellentesque id mi odio. Aliquam
-          erat volutpat. Vestibulum rutrum facilisis orci, eu sodales nulla
-          egestas quis. In leo massa, faucibus sit amet tempus eu, condimentum
-          vel risus. Sed imperdiet, erat vel imperdiet tincidunt, metus neque
-          vulputate mauris, et molestie est ipsum nec eros. Aliquam tempus
-          cursus ante, in tristique lorem aliquet sed.
-        </p>
+        <div className="left">
+          <h4>Green Consultants Founder and Chief Environmental Officer</h4>
+          <p>
+            Beverly Alkire Modell is the founder and Chief Environmental Officer
+            of Green Consultants. She has 25 years of management consulting
+            experience helping organizations and the people within them thrive
+            during times of complex change.
+          </p>
+          <p>
+            She has implemented 100+ projects across a variety of industries—all
+            with exceptional quality, on time, and on budget. These projects
+            have involved high visibility, enterprise-level strategic change
+            initiatives, resulting in behavior changes for hundreds of thousands
+            of stakeholders.
+          </p>
+          <p>
+            Her clients range from startups to Fortune 100 companies. She was
+            previously a project manager with Accenture's High Tech practice and
+            an early employee of two successful start-ups.
+          </p>
+          <p>
+            Beverly's education includes a Masters in Business from the Haas
+            School of Business, University of California at Berkeley and an
+            undergraduate degree in Psychology from University of North Carolina
+            at Chapel Hill. She is a graduate of the Business Strategies for
+            Environmental Sustainability Executive MBA Program at Stanford
+            Graduate School of Business and also completed Acterra's year-long
+            "Be the Change" Environmental Leadership Program.
+          </p>
+        </div>
+        <div className="right">
+          <img src="" alt="Beverly Headshot" />
+        </div>
       </Section>
       <Section id="values">
         <h3>Our Values</h3>
@@ -96,49 +85,27 @@ function About() {
       </Section>
       <Section id="contact">
         <h3>Contact Us</h3>
+        <p>Jumpstart your change or sustainability journey. We offer:</p>
+        <ul className="bullet">
+          <li>
+            <strong>Analysis</strong> of your organization's situation and
+            potential
+          </li>
+          <li>
+            <strong>Strategies</strong> to cultivate your company's
+            sustainability and maximize your opportunities
+          </li>
+          <li>
+            <strong>Tactics</strong> to engage stakeholders and improve your
+            business performance
+          </li>
+        </ul>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          convallis, purus a aliquet accumsan, neque sapien lobortis magna, vel
-          rutrum nunc sem sit amet nulla. Nam laoreet, enim nec bibendum tempor,
-          ante ligula vehicula nulla, at malesuada arcu tortor ultricies nisi.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Praesent dignissim lectus et lacus lobortis vestibulum eu et
-          ante. Fusce rutrum pellentesque neque, lobortis rhoncus mauris
-          ullamcorper sit amet. Proin sit amet libero tempus ipsum commodo
-          semper. Praesent fringilla ipsum sed neque condimentum eget euismod
-          tellus luctus. Morbi quis leo neque, ut semper purus. Sed iaculis,
-          lorem sed tempor faucibus, metus nulla egestas velit, ut vehicula
-          justo quam in odio. Morbi id neque sem. Suspendisse eros purus,
-          pulvinar pharetra congue in, venenatis ac justo. Sed varius turpis eu
-          eros gravida dignissim. Aenean ac molestie velit. Curabitur dolor
-          nisi, molestie eu bibendum in, facilisis vel sapien. Praesent eu
-          tincidunt ante. Nam viverra dolor sit amet urna blandit vitae interdum
-          ipsum mollis. Donec at volutpat ligula. Suspendisse at eros vitae
-          neque bibendum vulputate sit amet a massa. Ut malesuada pretium
-          vehicula. Fusce in semper sapien. Sed mattis lacinia sem nec commodo.
-          Vivamus facilisis dolor pulvinar nunc blandit porttitor. Etiam euismod
-          sodales varius. Morbi nunc velit, sollicitudin sit amet elementum
-          quis, fringilla et lorem. Praesent eget condimentum lacus. Fusce
-          sollicitudin gravida justo, eu pretium enim semper malesuada. Aenean
-          erat ante, placerat non viverra a, cursus id purus. Proin libero quam,
-          congue in consequat vel, mollis sit amet ipsum. Donec luctus lacinia
-          enim nec congue. Praesent nibh justo, mollis ut imperdiet nec,
-          consectetur a dui. Curabitur ornare, velit sed hendrerit lacinia,
-          sapien mauris aliquam tortor, sit amet faucibus purus justo nec
-          tellus. Suspendisse augue justo, fermentum vitae tristique consequat,
-          mollis sed tortor. In turpis nisl, fringilla vel varius id, vestibulum
-          eu leo. Suspendisse dapibus arcu eu ipsum facilisis tincidunt.
-          Vestibulum sollicitudin consectetur justo in sodales. Vestibulum quam
-          metus, dictum ut tempor nec, pulvinar a erat. Ut malesuada ante sed
-          nunc volutpat pellentesque. Curabitur sed placerat ipsum. Nunc
-          bibendum sodales enim, vel commodo ante tempus vitae. Etiam ac sapien
-          sit amet dolor blandit elementum. Pellentesque id mi odio. Aliquam
-          erat volutpat. Vestibulum rutrum facilisis orci, eu sodales nulla
-          egestas quis. In leo massa, faucibus sit amet tempus eu, condimentum
-          vel risus. Sed imperdiet, erat vel imperdiet tincidunt, metus neque
-          vulputate mauris, et molestie est ipsum nec eros. Aliquam tempus
-          cursus ante, in tristique lorem aliquet sed.
+          Call our CEO Beverly Alkire at 415-681-4944 or{" "}
+          <a className="inline-link" href="mailto:info@greenconsultants.com">
+            email us
+          </a>{" "}
+          for a consultation.
         </p>
       </Section>
     </Layout>
