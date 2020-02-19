@@ -12,3 +12,11 @@
   padding: 48px var(--side-margin);
   text-align: center;
 }
+
+.banner {
+  position: relative;
+  background-color: var(--purple);
+  color: white;
+  padding: 8px var(--side-margin);
+  text-align: center;
+}

@@ -41,7 +41,7 @@ let clientsArray = [
 function Clients() {
   return (
     <Layout>
-      <Section alt id="probono">
+      <Section banner id="probono">
         <h4>Pro Bono</h4>
         <p>
           Our team donates 10% of their consulting time to pro-bono projects -
