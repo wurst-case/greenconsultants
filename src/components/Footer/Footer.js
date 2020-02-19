@@ -8,11 +8,11 @@ function Footer() {
       <ul>
         <li>©2020 Green Consultants Inc. All rights reserved.</li>
         <li>
-          <img src={leaf} />
+          <img src={leaf} alt="•" />
           +1 (415) 681-4944
         </li>
         <li>
-          <img src={leaf} />
+          <img src={leaf} alt="•" />
           info@greenconsultants.com
         </li>
       </ul>

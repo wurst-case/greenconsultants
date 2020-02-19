@@ -53,14 +53,14 @@ function Clients() {
         <div className="client-list">
           <ul className="left">
             {clientsArray.map((client, i) => {
-              if (i >= clientsArray.length / 2) return;
-              else return <li>{client}</li>;
+              if (i >= clientsArray.length / 2) return <></>;
+              return <li>{client}</li>;
             })}
           </ul>
           <ul className="right">
             {clientsArray.map((client, i) => {
-              if (i < clientsArray.length / 2) return;
-              else return <li>{client}</li>;
+              if (i < clientsArray.length / 2) return <></>;
+              return <li>{client}</li>;
             })}
           </ul>
         </div>
