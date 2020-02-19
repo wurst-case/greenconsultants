@@ -2,6 +2,7 @@ import React from "react";
 import "./Certifications.css";
 import Layout from "../../components/Layout/Layout";
 import Section from "../../components/Section/Section";
+import greenBizLogo from "../../assets/cagbn_sf_logo.png";
 
 function Certifications() {
   return (
@@ -10,29 +11,51 @@ function Certifications() {
         <h1>Certifications</h1>
         <h3>Title</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          convallis, purus a aliquet accumsan, neque sapien lobortis magna, vel
-          rutrum nunc sem sit amet nulla. Nam laoreet, enim nec bibendum tempor,
-          ante ligula vehicula nulla, at malesuada arcu tortor ultricies nisi.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis
-          natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-          mus. Praesent dignissim lectus et lacus lobortis vestibulum eu et
-          ante. Fusce rutrum pellentesque neque, lobortis rhoncus mauris
-          ullamcorper sit amet. Proin sit amet libero tempus ipsum commodo
-          semper. Praesent fringilla ipsum sed neque condimentum eget euismod
-          tellus luctus. Morbi quis leo neque, ut semper purus. Sed iaculis,
-          lorem sed tempor faucibus, metus nulla egestas velit, ut vehicula
-          justo quam in odio. Morbi id neque sem. Suspendisse eros purus,
-          pulvinar pharetra congue in, venenatis ac justo. Sed varius turpis eu
-          eros gravida dignissim. Aenean ac molestie velit. Curabitur dolor
-          nisi, molestie eu bibendum in, facilisis vel sapien. Praesent eu
-          tincidunt ante. Nam viverra dolor sit amet urna blandit vitae interdum
-          ipsum mollis. Donec at volutpat ligula. Suspendisse at eros vitae
-          neque bibendum vulputate sit amet a massa. Ut malesuada pretium
-          vehicula. Fusce in semper sapien. Sed mattis lacinia sem nec commodo.
-          Vivamus facilisis dolor pulvinar nunc blandit porttitor. Etiam euismod
-          sodales varius.
+          Green Consultants conducts all of our business activities through the
+          lens of sustainability stewardship. We strive to inspire other
+          companies through our own socially responsible practices and
+          environmental leadership.
         </p>
+        <p>
+          Our business completed a comprehensive green business certification
+          through the{" "}
+          <a
+            className="inline"
+            href="https://sfenvironment.org/green-businesses"
+          >
+            San Francisco Green Business Program
+          </a>
+          . We were the 39th business in San Francisco to receive this
+          certification and the first management consulting firm to do so. We
+          were also one of the first 50 small businesses to join the EPA Climate
+          Leaders Small Business Network and successfully submit our GHG
+          inventory.
+        </p>
+
+        <h4>Our sustainability objectives include:</h4>
+        <div className="col2">
+          <ul className="bullet left">
+            <li>
+              Apply the principles of reduce, reuse and recycle to all our
+              business operations
+            </li>
+            <li>Measure our carbon footprint annually</li>
+            <li>Maintain net zero U.S. GHG emissions </li>
+            <li>
+              Obtain third-party green certifications to validate our
+              environmental operations
+            </li>
+            <li>Purchase green products from green suppliers and vendors</li>
+            <li>Promote environmental awareness</li>
+            <li>Donate up to 10% of our time to pro bono projects</li>
+          </ul>
+          <div className="right">
+            <img
+              src={greenBizLogo}
+              alt="Calironia Green Business Netowork Logo"
+            />
+          </div>
+        </div>
       </Section>
     </Layout>
   );

@@ -56,3 +56,20 @@ p {
   padding: 0;
   margin-bottom: 12px;
 }
+
+a.inline {
+  font-size: 1rem;
+}
+
+ul.bullet {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-transform: none;
+  font-size: 1rem;
+  list-style: inherit;
+}
+
+strong {
+  font-weight: 600;
+}

@@ -102,7 +102,7 @@ function About() {
         </ul>
         <p>
           Call our CEO Beverly Alkire at 415-681-4944 or{" "}
-          <a className="inline-link" href="mailto:info@greenconsultants.com">
+          <a className="inline" href="mailto:info@greenconsultants.com">
             email us
           </a>{" "}
           for a consultation.

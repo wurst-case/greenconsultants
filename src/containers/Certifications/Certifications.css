@@ -1,26 +1,12 @@
-.Certifications {
-  text-align: left;
+div.col2 {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: Calc(var(--nav-height) + 24px) var(--side-margin) 24px
-    var(--side-margin);
-
-  width: 40%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.section {
-  position: relative;
-}
-
-.anchor {
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  z-index: -1;
-  top: Calc(var(--nav-height) * -1);
-  left: 0;
-  visibility: hidden;
+img {
+  width: 250px;
+  margin-top: 24px;
 }
