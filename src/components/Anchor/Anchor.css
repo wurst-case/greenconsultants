@@ -1,0 +1,10 @@
+.anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: Calc(var(--nav-height) * -1);
+  left: 0;
+  visibility: hidden;
+}

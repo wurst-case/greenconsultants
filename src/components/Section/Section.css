@@ -1,0 +1,14 @@
+.section {
+  position: relative;
+  padding: 8px var(--side-margin);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.alt {
+  position: relative;
+  background-color: var(--purple);
+  color: white;
+  padding: 48px var(--side-margin);
+  text-align: center;
+}

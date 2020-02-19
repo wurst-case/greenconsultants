@@ -1,0 +1,34 @@
+.alt {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+div.client-list {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.client-list ul {
+  justify-self: start;
+  min-width: 200px;
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+div.client-list ul li {
+  min-height: 1rem;
+  max-height: auto;
+}
+
+.left {
+  grid-column: 1 / span 1;
+}
+
+.right {
+  grid-column: 2 / span 1;
+}

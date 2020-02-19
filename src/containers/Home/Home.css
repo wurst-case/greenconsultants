@@ -1,0 +1,50 @@
+.Home {
+  background: url(../../assets/GC_HOMEPAGE_LargeTree.png) right bottom no-repeat;
+  background-size: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+.content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: Calc(var(--nav-height) + 48px) var(--side-margin) 24px
+    var(--side-margin);
+
+  width: 40%;
+}
+
+.home-footer {
+  padding: 24px var(--side-margin) 8px var(--side-margin);
+}
+
+.home-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 50%;
+  background-color: var(--purple);
+}
+
+.home-footer ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  text-transform: none;
+  margin-right: 8px;
+  font-size: 0.7rem;
+}
+
+.home-footer ul li img {
+  width: 2rem;
+  margin-right: -4px;
+}

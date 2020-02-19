@@ -1,0 +1,5 @@
+div.foot {
+  background-color: var(--purple);
+  height: 400px;
+  color: white;
+}
