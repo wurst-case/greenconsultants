@@ -5,16 +5,35 @@
 }
 
 .about-bev .left {
-  flex: 1 1 70%;
+  flex: 1 1 60%;
 }
 
 .about-bev .right {
   flex: 1 1 20%;
-  /* justify-content: center; */
+  align-self: start;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 16px;
+}
+
+.headshot-wrap {
+  text-align: center;
+  display: inline;
+  padding: 16px;
+  background-color: var(--green);
+}
+
+.headshot-wrap h2 {
+  font-size: 1.5rem;
+}
+
+.headshot-wrap h6 {
+  margin: 0;
+}
+
+.headshot-wrap img {
+  margin: 0;
 }
 
 .deck {

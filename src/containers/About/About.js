@@ -9,9 +9,9 @@ function About() {
     <Layout>
       <Section id="founder">
         <h1> About Us</h1>
-        <h3>Green Consultants Founder and Chief Environmental Officer</h3>
         <div className="about-bev">
           <div className="left">
+            <h3>Green Consultants Founder and Chief Environmental Officer</h3>
             <p>
               Beverly Alkire Modell is the founder and Chief Environmental
               Officer of Green Consultants. She has 25 years of management
@@ -42,7 +42,12 @@ function About() {
             </p>
           </div>
           <div className="right">
-            <img src={headshot} alt="Beverly Headshot" />
+            <div className="headshot-wrap">
+              <img src={headshot} alt="Beverly Headshot" />
+              <h2>Beverly Alkire Modell</h2>
+              <h6>Green Consultants Founder</h6>
+              <h6>and Chief Environmental Officer</h6>
+            </div>
           </div>
         </div>
       </Section>
