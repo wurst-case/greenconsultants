@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,800&display=swap");
 
 :root {
-  --purple: #693b93;
+  --purple: #683b93;
+  --purple-rgb: 104, 59, 147;
   --green: #b2c657;
+  --green-rgb: 178, 198, 87;
   --nav-height: 120px;
   --side-margin: 140px;
 }

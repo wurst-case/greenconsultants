@@ -2,45 +2,48 @@ import React from "react";
 import "./About.css";
 import Layout from "../../components/Layout/Layout";
 import Section from "../../components/Section/Section";
+import headshot from "../../assets/bev.png";
 
 function About() {
   return (
     <Layout>
       <Section id="founder">
         <h1> About Us</h1>
-        <h3>Our Founder</h3>
-        <div className="left">
-          <h4>Green Consultants Founder and Chief Environmental Officer</h4>
-          <p>
-            Beverly Alkire Modell is the founder and Chief Environmental Officer
-            of Green Consultants. She has 25 years of management consulting
-            experience helping organizations and the people within them thrive
-            during times of complex change.
-          </p>
-          <p>
-            She has implemented 100+ projects across a variety of industries—all
-            with exceptional quality, on time, and on budget. These projects
-            have involved high visibility, enterprise-level strategic change
-            initiatives, resulting in behavior changes for hundreds of thousands
-            of stakeholders.
-          </p>
-          <p>
-            Her clients range from startups to Fortune 100 companies. She was
-            previously a project manager with Accenture's High Tech practice and
-            an early employee of two successful start-ups.
-          </p>
-          <p>
-            Beverly's education includes a Masters in Business from the Haas
-            School of Business, University of California at Berkeley and an
-            undergraduate degree in Psychology from University of North Carolina
-            at Chapel Hill. She is a graduate of the Business Strategies for
-            Environmental Sustainability Executive MBA Program at Stanford
-            Graduate School of Business and also completed Acterra's year-long
-            "Be the Change" Environmental Leadership Program.
-          </p>
-        </div>
-        <div className="right">
-          <img src="" alt="Beverly Headshot" />
+        <h3>Green Consultants Founder and Chief Environmental Officer</h3>
+        <div className="about-bev">
+          <div className="left">
+            <p>
+              Beverly Alkire Modell is the founder and Chief Environmental
+              Officer of Green Consultants. She has 25 years of management
+              consulting experience helping organizations and the people within
+              them thrive during times of complex change.
+            </p>
+            <p>
+              She has implemented 100+ projects across a variety of
+              industries—all with exceptional quality, on time, and on budget.
+              These projects have involved high visibility, enterprise-level
+              strategic change initiatives, resulting in behavior changes for
+              hundreds of thousands of stakeholders.
+            </p>
+            <p>
+              Her clients range from startups to Fortune 100 companies. She was
+              previously a project manager with Accenture's High Tech practice
+              and an early employee of two successful start-ups.
+            </p>
+            <p>
+              Beverly's education includes a Masters in Business from the Haas
+              School of Business, University of California at Berkeley and an
+              undergraduate degree in Psychology from University of North
+              Carolina at Chapel Hill. She is a graduate of the Business
+              Strategies for Environmental Sustainability Executive MBA Program
+              at Stanford Graduate School of Business and also completed
+              Acterra's year-long "Be the Change" Environmental Leadership
+              Program.
+            </p>
+          </div>
+          <div className="right">
+            <img src={headshot} alt="Beverly Headshot" />
+          </div>
         </div>
       </Section>
       <Section id="values">
@@ -53,35 +56,52 @@ function About() {
           measurable value, making our clients shine, and empowering people to
           become effective agents of change.
         </p>
-        <h4>Client empowerment</h4>
-        <p>
-          As consultants, our role is to help you chart your course and navigate
-          through the change. We will teach you the skills and provide the tools
-          you need to become self-sufficient. We are successful when we enable
-          and promote your success.
-        </p>
-        <h4>Focus on driving forward without re-creating the wheel</h4>
-        <p>
-          It can feel overwhelming to get started. Why make it harder by
-          creating all the deliverables to do it from scratch? Our Green Path
-          Methodology™ and Toolkit gets you on your way fast, so you spend the
-          time on the most important thing -- moving your organization towards
-          more environmentally and fiscally optimal business practices.
-        </p>
-        <h4>Environmental responsibility must make sound business sense</h4>
-        <p>
-          Above all, a sustainability strategic shift must align with your
-          corporate goals and objectives in order to propel your business
-          towards increased profitability.
-        </p>
-        <h4>Credibility is non-negotiable</h4>
-        <p>
-          Engaging in change or sustainability initiatives requires a new level
-          of operational transparency. This open information sharing builds
-          credibility and trust. Metrics and measurement are critical, as are
-          reporting, verification, and honesty and open communication with
-          stakeholders.
-        </p>
+        <div className="deck">
+          <div className="half-deck">
+            <div className="card">
+              <h4>Client empowerment</h4>
+              <p>
+                As consultants, our role is to help you chart your course and
+                navigate through the change. We will teach you the skills and
+                provide the tools you need to become self-sufficient. We are
+                successful when we enable and promote your success.
+              </p>
+            </div>
+            <div className="card">
+              <h4>Focus on driving forward without re-creating the wheel</h4>
+              <p>
+                It can feel overwhelming to get started. Why make it harder by
+                creating all the deliverables to do it from scratch? Our Green
+                Path Methodology™ and Toolkit gets you on your way fast, so you
+                spend the time on the most important thing -- moving your
+                organization towards more environmentally and fiscally optimal
+                business practices.
+              </p>
+            </div>
+          </div>
+          <div className="half-deck">
+            <div className="card">
+              <h4>
+                Environmental responsibility must make sound business sense
+              </h4>
+              <p>
+                Above all, a sustainability strategic shift must align with your
+                corporate goals and objectives in order to propel your business
+                towards increased profitability.
+              </p>
+            </div>
+            <div className="card">
+              <h4>Credibility is non-negotiable</h4>
+              <p>
+                Engaging in change or sustainability initiatives requires a new
+                level of operational transparency. This open information sharing
+                builds credibility and trust. Metrics and measurement are
+                critical, as are reporting, verification, and honesty and open
+                communication with stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
       </Section>
       <Section id="contact">
         <h3>Contact Us</h3>
@@ -101,7 +121,7 @@ function About() {
           </li>
         </ul>
         <p>
-          Call our CEO Beverly Alkire at 415-681-4944 or{" "}
+          Call our CEO Beverly Alkire Modell at 415-681-4944 or{" "}
           <a className="inline" href="mailto:info@greenconsultants.com">
             email us
           </a>{" "}
