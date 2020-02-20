@@ -22,7 +22,8 @@ function Routes() {
         <Route path="/certifications" component={Certifications} />
         <Route path="/Clients" component={Clients} />
         <Route path="/home" component={Home} />
-        <Route path="/" component={Lost} />
+        <Route path="/" exact component={Home} />
+        <Route component={Lost} />
       </Switch>
       <Switch>
         <Route path="/home" render={() => <></>} />
