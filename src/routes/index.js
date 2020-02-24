@@ -7,7 +7,6 @@ import About from "../containers/About/About.js";
 import Services from "../containers/Services/Services";
 import Clients from "../containers/Clients/Clients";
 import Footer from "../components/Footer/Footer";
-import HomeFooter from "../components/HomeFooter/HomeFooter";
 import Lost from "../containers/Lost/Lost";
 
 export const history = createBrowserHistory();
@@ -24,10 +23,7 @@ function Routes() {
         <Route path="/" exact component={Home} />
         <Route component={Lost} />
       </Switch>
-      <Switch>
-        <Route path="/home" component={HomeFooter} />
-        <Route path="/" component={Footer} />
-      </Switch>
+      <Footer />
     </Router>
   );
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import leaf from "../../assets/GreenLeaf_HOMEPAGE_Footer.png";
+import tree from "../../assets/Asset 5.svg";
+import road from "../../assets/Asset 7.svg";
 
 function Footer() {
   return (
@@ -16,6 +18,8 @@ function Footer() {
           info@greenconsultants.com
         </li>
       </ul>
+      <img src={tree} className="tree" alt="tree" />
+      <img src={road} className="road" alt="road" />
     </div>
   );
 }

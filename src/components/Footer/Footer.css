@@ -1,12 +1,12 @@
 div.foot {
-  background-color: var(--purple);
+  background-color: transparent;
   color: white;
   min-height: 200px;
   position: relative;
-  padding: 24px var(--side-margin);
+  /* padding: 24px var(--side-margin); */
   width: 100%;
   box-sizing: border-box;
-  /* margin-top: -24px; */
+  padding-top: 119px;
 }
 
 .foot ul {
@@ -15,6 +15,8 @@ div.foot {
   flex-direction: row;
   align-items: center;
   padding: 0;
+  padding: 48px var(--side-margin) 64px var(--side-margin);
+  margin: 0;
   background-color: var(--purple);
 }
 
@@ -24,12 +26,28 @@ div.foot {
   align-items: center;
   color: white;
   text-transform: none;
+  margin: 0;
   margin-right: 8px;
   font-size: 0.7rem;
 }
 
 .foot ul li img {
   width: 2rem;
+  margin: 0;
   margin-right: -4px;
   margin-top: 0;
+}
+
+img.tree {
+  width: 100px;
+  position: absolute;
+  right: var(--side-margin);
+  top: 0;
+}
+
+img.road {
+  width: 100px;
+  position: absolute;
+  right: var(--side-margin);
+  top: 119px;
 }
