@@ -2,16 +2,22 @@ nav {
   position: fixed;
   z-index: 10;
   width: 100vw;
+  background-color: var(--purple);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 24px var(--side-margin) 8px var(--side-margin);
+  align-items: flex-end;
+  padding: 36px var(--side-margin) 36px var(--side-margin);
   font-weight: 600;
+  max-width: 2000px;
+  width: inherit;
+  box-sizing: border-box;
 }
 
 .dropdown-content {
@@ -23,7 +29,7 @@ nav {
   z-index: 100;
 }
 
-.dropdown-content a {
+.dropdown div.dropdown-content a {
   color: var(--purple);
   padding: 12px 16px;
   text-decoration: none;
@@ -31,7 +37,7 @@ nav {
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown div.dropdown-content a:hover {
   background-color: var(--purple);
   color: white;
 }
@@ -40,40 +46,82 @@ nav {
   display: block;
 }
 
-ul {
+ul.nav-buttons {
   justify-self: flex-end;
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   list-style: none;
   text-transform: uppercase;
-
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
 }
 
-li {
-  margin: 12px;
+ul.nav-buttons li {
+  margin: 0 12px;
+  padding: 0;
 }
 
-a {
-  color: purple;
+ul.nav-buttons li.last-link {
+  margin-right: 0;
+}
+
+ul.nav-buttons li a {
+  color: white;
   text-decoration: none;
   font-size: 0.8rem;
+  white-space: nowrap;
 }
 
-a:hover {
+ul.nav-buttons li a:hover {
   color: var(--green);
   cursor: pointer;
 }
 
-.logo {
+/* .logo {
   color: var(--purple);
 }
 
 .logo h2,
 .logo h4 {
   margin: 0px 0px;
-}
+  color: white;
+} */
 
 .selected {
   color: var(--green);
+}
+
+object.logo {
+  align-self: flex-end;
+  justify-self: flex-start;
+  height: 3rem;
+  width: 300px;
+  margin-left: -6px;
+  z-index: 1;
+}
+
+object.logo img.logo {
+  margin-top: 0;
+  height: 3rem;
+}
+
+div.svg-wrap {
+  display: inline-block;
+}
+
+button.svg {
+  position: absolute;
+  float: left;
+  color: none;
+  border: none;
+  box-shadow: none;
+  background: rgba(255, 0, 0, 0);
+  z-index: 2;
+  cursor: pointer;
+  width: 300px;
+  height: 3rem;
+  padding: 0;
 }

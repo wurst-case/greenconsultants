@@ -33,20 +33,20 @@
 }
 
 .headshot-wrap img {
+  max-height: 360px;
   margin: 0;
 }
 
 .deck {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(575px, 1fr));
+  justify-items: center;
 }
 
 .half-deck {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   justify-content: center;
-  max-width: 899px;
 }
 
 .card {
@@ -70,4 +70,21 @@
 
 .card p {
   text-align: left;
+}
+
+/* div.col2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+} */
+
+div.col2 div.right {
+  align-self: flex-start;
+}
+
+img.green-biz-logo {
+  width: 250px;
+  margin-top: 24px;
 }

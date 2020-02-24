@@ -41,16 +41,9 @@ let clientsArray = [
 function Clients() {
   return (
     <Layout>
-      <Section banner id="probono">
-        <h4>Pro Bono</h4>
-        <p>
-          Our team donates 10% of their consulting time to pro-bono projects -
-          contact us to be considered for 2020 pro-bono consulting.
-        </p>
-      </Section>
       <Section id="clients">
         <h1>Clients</h1>
-        <div className="client-list">
+        {/* <div className="client-list">
           <ul className="left">
             {clientsArray.map((client, i) => {
               if (i >= clientsArray.length / 2) return <></>;
@@ -63,7 +56,20 @@ function Clients() {
               return <li>{client}</li>;
             })}
           </ul>
-        </div>
+        </div> */}
+        <ul className="client-list-dynamic">
+          {clientsArray.map(client => (
+            <li>{client}</li>
+          ))}
+        </ul>
+      </Section>
+      <Section banner id="probono">
+        <h4>Pro Bono</h4>
+        <span>
+          Our team donates 10% of their consulting time to pro-bono projects.
+        </span>
+        <br />
+        <span>Contact us to be considered for 2020 pro-bono consulting.</span>
       </Section>
     </Layout>
   );

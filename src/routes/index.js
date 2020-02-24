@@ -5,9 +5,9 @@ import Nav from "../components/Nav/Nav";
 import Home from "../containers/Home/Home.js";
 import About from "../containers/About/About.js";
 import Services from "../containers/Services/Services";
-import Certifications from "../containers/Certifications/Certifications";
 import Clients from "../containers/Clients/Clients";
 import Footer from "../components/Footer/Footer";
+import HomeFooter from "../components/HomeFooter/HomeFooter";
 import Lost from "../containers/Lost/Lost";
 
 export const history = createBrowserHistory();
@@ -19,14 +19,13 @@ function Routes() {
       <Switch>
         <Route path="/about-us" component={About} />
         <Route path="/services" component={Services} />
-        <Route path="/certifications" component={Certifications} />
-        <Route path="/Clients" component={Clients} />
+        <Route path="/clients" component={Clients} />
         <Route path="/home" component={Home} />
         <Route path="/" exact component={Home} />
         <Route component={Lost} />
       </Switch>
       <Switch>
-        <Route path="/home" render={() => <></>} />
+        <Route path="/home" component={HomeFooter} />
         <Route path="/" component={Footer} />
       </Switch>
     </Router>

@@ -26,6 +26,8 @@ h1 {
   font-weight: 600;
   margin: 0;
   margin-bottom: 12px;
+  text-align: center;
+  color: var(--green);
 }
 
 h2 {
@@ -59,17 +61,32 @@ p {
   margin-bottom: 12px;
 }
 
+a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--green);
+}
+
 a.inline {
   font-size: 1rem;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 ul.bullet {
   display: flex;
   flex-direction: column;
-  margin: 0;
   text-transform: none;
   font-size: 1rem;
   list-style: inherit;
+  padding-left: 0px;
+  list-style-position: inside;
 }
 
 strong {

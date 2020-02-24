@@ -7,7 +7,7 @@ import greenBizLogo from "../../assets/cagbn_sf_logo.png";
 function Certifications() {
   return (
     <Layout>
-      <Section id="">
+      <Section id="sustainability">
         <h1>Certifications</h1>
         <p>
           Green Consultants conducts all of our business activities through the

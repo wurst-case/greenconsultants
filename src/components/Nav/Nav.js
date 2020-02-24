@@ -1,16 +1,33 @@
 import React from "react";
 import "./Nav.css";
 import { NavHashLink as Link } from "react-router-hash-link";
+import { useHistory } from "react-router-dom";
+import logo from "../../assets/GC_Letter_Logo.svg";
+import logopng from "../../assets/GC_Letter_Logo.png";
 
 function Nav() {
+  let history = useHistory();
+
+  function handleClick() {
+    history.push("/home");
+  }
+
   return (
     <nav>
       <div className="wrapper">
-        <div className="logo">
-          <h2>Green Consultants</h2>
-          <h4>Strategies & Tactics to Help Organizations Thrive</h4>
+        <div className="svg-wrap" onClick={handleClick}>
+          <button className="svg" onClick={handleClick}>
+            <div />
+          </button>
+          <object className="logo" data={logo} type="image/svg+xml">
+            <img
+              className="logo"
+              src={logopng}
+              alt="Green Consultants - Strategies & Tactics to Help Organizations Thrive"
+            />
+          </object>
         </div>
-        <ul>
+        <ul className="nav-buttons">
           <li>
             <Link to={"/home"} activeClassName="selected">
               Home
@@ -39,16 +56,11 @@ function Nav() {
             </div>
           </li>
           <li>
-            <Link to={"/certifications"} activeClassName="selected">
-              Certifications
-            </Link>
-          </li>
-          <li>
             <Link to={"/clients"} activeClassName="selected">
               Clients
             </Link>
           </li>
-          <li className="dropdown">
+          <li className="dropdown last-link">
             <Link smooth to={"/about-us#top"} activeClassName="selected">
               About Us
             </Link>
@@ -58,6 +70,13 @@ function Nav() {
               </Link>
               <Link smooth to={"/about-us#values"} activeClassName="selected">
                 Our Values
+              </Link>
+              <Link
+                smooth
+                to={"/about-us#sustainability"}
+                activeClassName="selected"
+              >
+                Our Sustainability
               </Link>
               <Link smooth to={"/about-us#contact"} activeClassName="selected">
                 Contact

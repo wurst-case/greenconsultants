@@ -3,6 +3,7 @@
   padding: 8px var(--side-margin);
   width: 100%;
   box-sizing: border-box;
+  max-width: 2000px;
 }
 
 .alt {
@@ -16,8 +17,9 @@
 
 .banner {
   position: relative;
-  background-color: var(--purple);
-  color: white;
+  background-color: var(--green);
+  color: black;
   padding: 8px var(--side-margin);
+  padding-bottom: 24px;
   text-align: center;
 }
