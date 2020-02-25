@@ -4,6 +4,10 @@ import Layout from "../../components/Layout/Layout";
 import Section from "../../components/Section/Section";
 import greenBizLogo from "../../assets/cagbn_sf_logo.png";
 import headshot from "../../assets/Bev-Headshot.jpg";
+import sense from "../../assets/BusinessSense.png";
+import credibility from "../../assets/credibility.png";
+import empower from "../../assets/empower.png";
+import focus from "../../assets/focus.png";
 
 function About() {
   return (
@@ -65,6 +69,7 @@ function About() {
         <div className="deck">
           <div className="half-deck">
             <div className="card">
+              <img className="icon" alt="empower" src={empower} />
               <h4>Client empowerment</h4>
               <p>
                 As consultants, our role is to help you chart your course and
@@ -74,6 +79,7 @@ function About() {
               </p>
             </div>
             <div className="card">
+              <img className="icon" alt="focus" src={focus} />
               <h4>Focus on driving forward without re-creating the wheel</h4>
               <p>
                 It can feel overwhelming to get started. Why make it harder by
@@ -87,6 +93,7 @@ function About() {
           </div>
           <div className="half-deck">
             <div className="card">
+              <img className="icon" alt="sense" src={sense} />
               <h4>
                 Environmental responsibility must make sound business sense
               </h4>
@@ -97,6 +104,7 @@ function About() {
               </p>
             </div>
             <div className="card">
+              <img className="icon" alt="credibility" src={credibility} />
               <h4>Credibility is non-negotiable</h4>
               <p>
                 Engaging in change or sustainability initiatives requires a new
