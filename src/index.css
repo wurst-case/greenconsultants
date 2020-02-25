@@ -8,6 +8,17 @@
   --nav-height: 120px;
   --side-margin: 140px;
 }
+@media only screen and (max-width: 920px) {
+  :root {
+    --side-margin: 48px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --side-margin: 16px;
+  }
+}
 
 body {
   margin: 0;

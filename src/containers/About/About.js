@@ -9,6 +9,49 @@ import credibility from "../../assets/credibility.png";
 import empower from "../../assets/empower.png";
 import focus from "../../assets/focus.png";
 
+let cards = [
+  <div className="card">
+    <img className="icon" alt="empower" src={empower} />
+    <h4>Client empowerment</h4>
+    <p>
+      As consultants, our role is to help you chart your course and navigate
+      through the change. We will teach you the skills and provide the tools you
+      need to become self-sufficient. We are successful when we enable and
+      promote your success.
+    </p>
+  </div>,
+  <div className="card">
+    <img className="icon" alt="focus" src={focus} />
+    <h4>Focus on driving forward without re-creating the wheel</h4>
+    <p>
+      It can feel overwhelming to get started. Why make it harder by creating
+      all the deliverables to do it from scratch? Our Green Path Methodology™
+      and Toolkit gets you on your way fast, so you spend the time on the most
+      important thing -- moving your organization towards more environmentally
+      and fiscally optimal business practices.
+    </p>
+  </div>,
+  <div className="card">
+    <img className="icon" alt="sense" src={sense} />
+    <h4>Environmental responsibility must make sound business sense</h4>
+    <p>
+      Above all, a sustainability strategic shift must align with your corporate
+      goals and objectives in order to propel your business towards increased
+      profitability.
+    </p>
+  </div>,
+  <div className="card">
+    <img className="icon" alt="credibility" src={credibility} />
+    <h4>Credibility is non-negotiable</h4>
+    <p>
+      Engaging in change or sustainability initiatives requires a new level of
+      operational transparency. This open information sharing builds credibility
+      and trust. Metrics and measurement are critical, as are reporting,
+      verification, and honesty and open communication with stakeholders.
+    </p>
+  </div>
+];
+
 function About() {
   return (
     <Layout>
@@ -68,53 +111,19 @@ function About() {
         </p>
         <div className="deck">
           <div className="half-deck">
-            <div className="card">
-              <img className="icon" alt="empower" src={empower} />
-              <h4>Client empowerment</h4>
-              <p>
-                As consultants, our role is to help you chart your course and
-                navigate through the change. We will teach you the skills and
-                provide the tools you need to become self-sufficient. We are
-                successful when we enable and promote your success.
-              </p>
-            </div>
-            <div className="card">
-              <img className="icon" alt="focus" src={focus} />
-              <h4>Focus on driving forward without re-creating the wheel</h4>
-              <p>
-                It can feel overwhelming to get started. Why make it harder by
-                creating all the deliverables to do it from scratch? Our Green
-                Path Methodology™ and Toolkit gets you on your way fast, so you
-                spend the time on the most important thing -- moving your
-                organization towards more environmentally and fiscally optimal
-                business practices.
-              </p>
-            </div>
+            {cards[0]}
+            {cards[1]}
           </div>
           <div className="half-deck">
-            <div className="card">
-              <img className="icon" alt="sense" src={sense} />
-              <h4>
-                Environmental responsibility must make sound business sense
-              </h4>
-              <p>
-                Above all, a sustainability strategic shift must align with your
-                corporate goals and objectives in order to propel your business
-                towards increased profitability.
-              </p>
-            </div>
-            <div className="card">
-              <img className="icon" alt="credibility" src={credibility} />
-              <h4>Credibility is non-negotiable</h4>
-              <p>
-                Engaging in change or sustainability initiatives requires a new
-                level of operational transparency. This open information sharing
-                builds credibility and trust. Metrics and measurement are
-                critical, as are reporting, verification, and honesty and open
-                communication with stakeholders.
-              </p>
-            </div>
+            {cards[2]}
+            {cards[3]}
           </div>
+        </div>
+        <div className="mobile-deck">
+          {cards[0]}
+          {cards[1]}
+          {cards[2]}
+          {cards[3]}
         </div>
       </Section>
       <Section id="sustainability">

@@ -4,10 +4,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: Calc(var(--nav-height) * 1.2) 0 0 0;
+  padding: 0;
+  padding-top: 120px;
   min-height: 100vh;
   max-width: 100vw;
   box-sizing: border-box;
   overflow: hidden;
   margin-bottom: 8px;
+}
+
+@media (max-height: 520) {
+  .layout {
+    padding-top: 60px;
+  }
 }

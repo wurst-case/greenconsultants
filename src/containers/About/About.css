@@ -24,6 +24,19 @@
   background-color: var(--green);
 }
 
+@media only screen and (max-width: 350px) {
+  .about-bev .right {
+    padding: 16px 0;
+  }
+  .headshot-wrap {
+    padding: 8px;
+  }
+
+  .headshot-wrap img {
+    width: 100%;
+  }
+}
+
 .headshot-wrap h2 {
   font-size: 1.5rem;
 }
@@ -35,18 +48,6 @@
 .headshot-wrap img {
   max-height: 360px;
   margin: 0;
-}
-
-.deck {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(575px, 1fr));
-  justify-items: center;
-}
-
-.half-deck {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-  justify-content: center;
 }
 
 .card {
@@ -75,6 +76,39 @@
 
 .card p {
   text-align: left;
+}
+
+@media only screen and (min-width: 671px) {
+  .deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(575px, 1fr));
+    justify-items: center;
+  }
+
+  .half-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+    justify-content: center;
+  }
+  .mobile-deck {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .deck {
+    display: none;
+  }
+
+  .mobile-deck {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card img.icon {
+    height: 14vw;
+  }
 }
 
 div.col2 {

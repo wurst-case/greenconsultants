@@ -13,11 +13,19 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 36px var(--side-margin) 36px var(--side-margin);
+  padding: 36px var(--side-margin);
   font-weight: 600;
   max-width: 2000px;
   width: inherit;
   box-sizing: border-box;
+  max-height: 20vh;
+}
+
+@media only screen and (max-height: 505px) {
+  .wrapper {
+    padding: 0 var(--side-margin);
+    margin: 16px 0;
+  }
 }
 
 .dropdown-content {
@@ -80,22 +88,15 @@ a.nav-button:hover {
   cursor: pointer;
 }
 
-/* .logo {
-  color: var(--purple);
-}
-
-.logo h2,
-.logo h4 {
-  margin: 0px 0px;
-  color: white;
-} */
-
 object.logo {
   align-self: flex-end;
   justify-self: flex-start;
-  height: 3rem;
+  height: 5vh;
+  max-height: 3rem;
+  min-height: 2rem;
+  max-width: 60vw;
   width: 300px;
-  margin-left: -6px;
+  margin-bottom: -8px;
   z-index: 1;
 }
 
@@ -124,4 +125,98 @@ button.svg {
 
 .selected {
   color: var(--green);
+}
+
+svg.hamburger {
+  width: 44px;
+  min-height: 36px;
+  cursor: pointer;
+  fill: white;
+  pointer-events: all;
+  z-index: 11;
+}
+
+svg.hamburger:hover {
+  fill: var(--green);
+}
+
+@media only screen and (min-width: 741px) {
+  svg.hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  ul.nav-buttons {
+    display: none;
+  }
+}
+
+div.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: white;
+  padding: 16px 0;
+  width: 80vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  z-index: 100;
+  box-shadow: -48px 0 60px rgba(var(--purple-rgb), 0.6);
+
+  display: none;
+}
+
+div.menu > ul {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+div.menu > ul > li {
+  padding: 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div.menu ul > li:hover {
+  background-color: var(--purple);
+}
+
+div.menu a {
+  color: var(--purple);
+}
+
+div.menu a.selected {
+  color: var(--green);
+}
+
+div.menu > ul > li:hover > a {
+  color: white;
+}
+div.menu > ul > li.sub {
+  padding-left: 24px;
+}
+
+div.menu > ul > li.exit {
+  justify-self: flex-end;
+}
+
+svg.exit {
+  align-self: flex-end;
+  width: 44px;
+  min-height: 36px;
+  cursor: pointer;
+  fill: var(--purple);
+  pointer-events: all;
+  margin: 16px;
+}
+
+svg.exit:hover {
+  fill: var(--green);
 }
