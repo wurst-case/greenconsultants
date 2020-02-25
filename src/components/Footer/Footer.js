@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import leaf from "../../assets/GreenLeaf_HOMEPAGE_Footer.png";
-import tree from "../../assets/Asset 5.svg";
-import road from "../../assets/Asset 7.svg";
+import tree from "../../assets/tree.svg";
+import road from "../../assets/road.svg";
 
 function Footer() {
   return (
