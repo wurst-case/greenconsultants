@@ -62,8 +62,9 @@ p {
 }
 
 a {
-  color: var(--purple);
+  color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -72,6 +73,8 @@ a:hover {
 
 a.inline {
   font-size: 1rem;
+  cursor: pointer;
+  color: var(--purple);
 }
 
 ul {

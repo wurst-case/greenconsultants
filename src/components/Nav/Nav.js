@@ -29,7 +29,11 @@ function Nav() {
         </div>
         <ul className="nav-buttons">
           <li>
-            <Link to={"/home"} activeClassName="selected">
+            <Link
+              to={"/home"}
+              activeClassName="selected"
+              className="nav-button"
+            >
               Home
             </Link>
           </li>
@@ -37,7 +41,7 @@ function Nav() {
             <Link
               smooth
               to={"/services#top"}
-              className="dropbtn"
+              className="dropbtn nav-button"
               activeClassName="selected"
             >
               Services
@@ -56,12 +60,21 @@ function Nav() {
             </div>
           </li>
           <li>
-            <Link to={"/clients"} activeClassName="selected">
+            <Link
+              to={"/clients"}
+              activeClassName="selected"
+              className="nav-button"
+            >
               Clients
             </Link>
           </li>
           <li className="dropdown last-link">
-            <Link smooth to={"/about-us#top"} activeClassName="selected">
+            <Link
+              smooth
+              to={"/about-us#top"}
+              activeClassName="selected"
+              className="nav-button"
+            >
               About Us
             </Link>
             <div className="dropdown-content">
