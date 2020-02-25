@@ -42,7 +42,7 @@ function Clients() {
   return (
     <Layout>
       <Section id="clients">
-        <h1>Clients</h1>
+        {/* <h1>Clients</h1> */}
         {/* <div className="client-list">
           <ul className="left">
             {clientsArray.map((client, i) => {

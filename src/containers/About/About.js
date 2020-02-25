@@ -13,7 +13,7 @@ function About() {
   return (
     <Layout>
       <Section id="founder">
-        <h1> About Us</h1>
+        {/* <h1> About Us</h1> */}
         <div className="about-bev">
           <div className="left">
             <h3>Green Consultants Founder and Chief Environmental Officer</h3>

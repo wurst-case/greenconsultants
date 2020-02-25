@@ -12,7 +12,7 @@ function Services() {
   return (
     <Layout>
       <Section id="sustainability">
-        <h1> Services</h1>
+        {/* <h1> Services</h1> */}
         <h3>Sustainability</h3>
         <p>
           Boost your business performance by integrating new environmental,
