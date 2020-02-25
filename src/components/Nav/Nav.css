@@ -27,7 +27,7 @@ nav {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 100;
-  margin-top: 8px;
+  border-top: var(--purple) 8px solid;
 }
 
 .dropdown div.dropdown-content a {
