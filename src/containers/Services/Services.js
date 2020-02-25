@@ -2,6 +2,11 @@ import React from "react";
 import "./Services.css";
 import Section from "../../components/Section/Section";
 import Layout from "../../components/Layout/Layout";
+import tree4 from "../../assets/tree.svg";
+import tree3 from "../../assets/tree-3of4.svg";
+import tree2 from "../../assets/tree-2of4.svg";
+import tree1 from "../../assets/tree-1of4.svg";
+import arrow from "../../assets/arrow.png";
 
 function Services() {
   return (
@@ -58,9 +63,18 @@ function Services() {
       </Section>
       <Section alt id="bottom-line">
         <p>
-          Our bottom line? We can boost your business performance through
-          sustainability.
+          Our bottom line? <br />
+          We can boost your business performance through sustainability.
         </p>
+        <div className="growth">
+          <img src={tree1} alt="Grow" className="growing-tree" />
+          <img src={arrow} alt="->" className="icon" />
+          <img src={tree2} alt="Grow" className="growing-tree" />
+          <img src={arrow} alt="->" className="icon" />
+          <img src={tree3} alt="Grow" className="growing-tree" />
+          <img src={arrow} alt="->" className="icon" />
+          <img src={tree4} alt="Grow" className="growing-tree" />
+        </div>
       </Section>
       <Section id="mgmt">
         <h3>Change Management & Training</h3>

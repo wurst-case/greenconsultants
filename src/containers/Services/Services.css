@@ -1,0 +1,16 @@
+.growth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img.growing-tree {
+  max-height: 150px;
+}
+
+img.icon {
+  max-height: 80px;
+  width: auto;
+}
