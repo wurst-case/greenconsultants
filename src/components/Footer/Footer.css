@@ -15,7 +15,7 @@ div.foot {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  padding: 48px var(--side-margin) 64px var(--side-margin);
+  padding: 48px var(--side-margin) 48px var(--side-margin);
   margin: 0;
   background-color: var(--purple);
 }
@@ -50,4 +50,12 @@ img.road {
   position: absolute;
   right: var(--side-margin);
   top: 119px;
+}
+
+.gg-seal {
+  width: 100vw;
+  background-color: var(--purple);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
 }

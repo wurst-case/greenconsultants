@@ -18,7 +18,7 @@ nav {
   max-width: 2000px;
   width: inherit;
   box-sizing: border-box;
-  max-height: 20vh;
+  /* max-height: 20vh; */
 }
 
 @media only screen and (max-height: 505px) {
@@ -26,6 +26,16 @@ nav {
     padding: 0 var(--side-margin);
     margin: 16px 0;
   }
+}
+
+.logo {
+  max-height: 3rem;
+  min-height: 2rem;
+  max-width: 60vw;
+  width: 300px;
+  margin-left: -5px;
+  cursor: pointer;
+  fill: white;
 }
 
 .dropdown-content {
@@ -44,6 +54,7 @@ nav {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 0.8rem;
 }
 
 .dropdown div.dropdown-content a:hover {
@@ -69,7 +80,7 @@ ul.nav-buttons {
 }
 
 ul.nav-buttons li {
-  margin: 0 12px;
+  margin: 0 8px;
   padding: 0;
 }
 
@@ -79,48 +90,13 @@ ul.nav-buttons li.last-link {
 
 a.nav-button {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   white-space: nowrap;
 }
 
 a.nav-button:hover {
   color: var(--green);
   cursor: pointer;
-}
-
-object.logo {
-  align-self: flex-end;
-  justify-self: flex-start;
-  height: 5vh;
-  max-height: 3rem;
-  min-height: 2rem;
-  max-width: 60vw;
-  width: 300px;
-  margin-bottom: -8px;
-  z-index: 1;
-}
-
-object.logo img.logo {
-  margin-top: 0;
-  height: 3rem;
-}
-
-div.svg-wrap {
-  display: inline-block;
-}
-
-button.svg {
-  position: absolute;
-  float: left;
-  color: none;
-  border: none;
-  box-shadow: none;
-  background: rgba(255, 0, 0, 0);
-  z-index: 2;
-  cursor: pointer;
-  width: 300px;
-  height: 3rem;
-  padding: 0;
 }
 
 .selected {

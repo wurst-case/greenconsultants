@@ -14,3 +14,27 @@ img.icon {
   max-height: 80px;
   width: auto;
 }
+
+div.green-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 48px;
+}
+
+div.green-col > div.green-right {
+  background-color: var(--green);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+  div.green-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  div.green-col {
+    grid-template-columns: 1fr;
+  }
+}

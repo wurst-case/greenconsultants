@@ -2,10 +2,9 @@ import React from "react";
 import "./Nav.css";
 import { NavHashLink as Link } from "react-router-hash-link";
 import { useHistory } from "react-router-dom";
-import logo from "../../assets/GC_Letter_Logo.svg";
-import logopng from "../../assets/GC_Letter_Logo.png";
 import { ReactComponent as Hamburger } from "../../assets/hamburger.svg";
 import { ReactComponent as Exit } from "../../assets/exit.svg";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 function Nav() {
   let history = useHistory();
@@ -25,18 +24,7 @@ function Nav() {
   return (
     <nav>
       <div className="wrapper">
-        <div className="svg-wrap" onClick={handleClick}>
-          <button className="svg" onClick={handleClick}>
-            <div />
-          </button>
-          <object className="logo" data={logo} type="image/svg+xml">
-            <img
-              className="logo"
-              src={logopng}
-              alt="Green Consultants - Strategies & Tactics to Help Organizations Thrive"
-            />
-          </object>
-        </div>
+        <Logo className="logo" id="logo" onClick={handleClick} />
         <ul className="nav-buttons">
           <li>
             <Link
@@ -68,6 +56,15 @@ function Nav() {
                 Change Management and Training
               </Link>
             </div>
+          </li>
+          <li>
+            <Link
+              to={"/benefits"}
+              activeClassName="selected"
+              className="nav-button"
+            >
+              Benefits
+            </Link>
           </li>
           <li>
             <Link

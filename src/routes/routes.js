@@ -8,6 +8,7 @@ import Services from "../containers/Services/Services";
 import Clients from "../containers/Clients/Clients";
 import Footer from "../components/Footer/Footer";
 import Lost from "../containers/Lost/Lost";
+import Benefits from "../containers/Benefits/Benefits";
 
 export const history = createBrowserHistory();
 
@@ -19,6 +20,7 @@ function Routes() {
         <Route path="/about-us" component={About} />
         <Route path="/services" component={Services} />
         <Route path="/clients" component={Clients} />
+        <Route path="/benefits" component={Benefits} />
         <Route path="/home" component={Home} />
         <Route path="/" exact component={Home} />
         <Route component={Lost} />
