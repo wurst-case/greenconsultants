@@ -175,6 +175,15 @@ function About() {
               alt="Calironia Green Business Netowork Logo"
               className="green-biz-logo"
             />
+            {/* GreenGeeks Seal */}
+            <div className="gg-seal">
+              <a href="https://www.greengeeks.com" onclick="ggs_ggseal()">
+                <img
+                  src="https://static.websitehostserver.net/ggseal/Green_11.png"
+                  alt="This Site is 300% Green"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </Section>

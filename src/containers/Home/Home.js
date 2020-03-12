@@ -15,11 +15,16 @@ function Home() {
             employees and customers expect from you? What delivers the highest
             value? Green Consultants helps you cut through the confusion to
             understand and embrace change management and sustainability as
-            powerful business opportunities. We are a management consulting firm
-            committed to making your business thrive. Our consultants have
-            tackled the most complex projects and transformed challenges into
-            opportunities while inspiring leadership and igniting the passion of
-            employees. Our bottom line? We can boost your business through our
+            powerful business opportunities.
+          </p>
+          <p>
+            We are a management consulting firm committed to making your
+            business thrive. Our consultants have tackled the most complex
+            projects and transformed challenges into opportunities while
+            inspiring leadership and igniting the passion of employees.
+          </p>
+          <p>
+            Our bottom line? We can boost your business through our
             sustainability, change management and training services.
           </p>
         </div>

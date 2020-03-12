@@ -177,6 +177,7 @@ div.menu > ul > li:hover > a {
 }
 div.menu > ul > li.sub {
   padding-left: 24px;
+  font-size: 0.8rem;
 }
 
 div.menu > ul > li.exit {
