@@ -1,6 +1,6 @@
 import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
+import { createHashHistory } from "history";
 import Nav from "../components/Nav/Nav";
 import Home from "../containers/Home/Home.js";
 import About from "../containers/About/About.js";
@@ -10,7 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Lost from "../containers/Lost/Lost";
 import Benefits from "../containers/Benefits/Benefits";
 
-export const history = createBrowserHistory();
+export const history = createHashHistory();
 
 function Routes() {
   return (
